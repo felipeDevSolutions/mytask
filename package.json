@@ -1,13 +1,13 @@
 {
-  "name": "backend",
+  "name": "mytask",
   "version": "1.0.0",
-  "main": "src/app.js",
+  "main": "app.js",
   "engines": {
     "node": "20.x"
   },
   "scripts": {
-    "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "jest"
   },
   "keywords": [],
@@ -26,6 +26,9 @@
     "firebase": "^10.12.2",
     "firebase-admin": "^12.1.1",
     "jsonwebtoken": "^9.0.2",
+    "mytask": "file:",
+    "myTask": "file:",
+    "MyTask": "file:",
     "nodemailer": "^6.9.13"
   }
 }

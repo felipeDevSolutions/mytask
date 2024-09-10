@@ -1,12 +1,12 @@
 const express = require('express');
 const cors = require('cors');
 const dotenv = require('dotenv');
-const { db, auth, admin } = require('../firebaseConfig');
+const { db, auth, admin } = require('./firebaseConfig');
 const jwt = require('jsonwebtoken');
 const bcryptjs = require('bcryptjs');
-const userRouter = require('./routes/userRoutes');
-const authRouter = require('./routes/authRoutes');
-const projectRouter = require('./routes/projectRoutes');
+const userRouter = require('./src/routes/userRoutes');
+const authRouter = require('./src/routes/authRoutes');
+const projectRouter = require('./src/routes/projectRoutes');
 
 dotenv.config();
 

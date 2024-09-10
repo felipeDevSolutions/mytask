@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "MyTask-Backend",
+  "name": "mytask",
   "builds": [
     {
       "src": "src/app.js", 
